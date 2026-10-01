@@ -1,0 +1,9 @@
+pymysql
+cryptography
+sqlalchemy
+pandas
+numpy
+python-dotenv
+boto3
+fastapi
+uvicorn
