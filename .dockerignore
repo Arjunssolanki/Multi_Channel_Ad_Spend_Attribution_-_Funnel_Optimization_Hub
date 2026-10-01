@@ -1,0 +1,9 @@
+.git
+.env
+attribution_env/
+mlruns/
+.pytest_cache/
+__pycache__/
+# Exclude specific Microsoft Word files and templates
+*.docx
+*.doc

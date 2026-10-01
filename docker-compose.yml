@@ -1,0 +1,9 @@
+services:
+  marketing_hub_pipeline:
+    build: .
+    image: multi_channel_attribution_hub:latest
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    restart: always
