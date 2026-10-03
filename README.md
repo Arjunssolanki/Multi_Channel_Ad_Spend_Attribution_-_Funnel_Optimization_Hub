@@ -370,6 +370,8 @@ Once the container finishes building and initializes, your FastAPI ingestion gat
 The analytical presentation tier visualizes the mathematical insights computed by the downstream processing pipeline across three distinct interactive dashboard views, allowing marketing teams to optimize capital efficiency and track funnel transitions.
 
 ### 📈 1. Page 1: Executive Overview (`BiDashboard/overview.png`)
+![Executive Overview](`BiDashboard/overview.png`)
+
 
 Provides a high-level command center capturing global marketing capital health and channel multi-touch comparisons.
 
@@ -380,6 +382,7 @@ Provides a high-level command center capturing global marketing capital health a
   - **Funnel Velocity Gauges** showing an average duration of **7.75 minutes** to navigate from **Landing ──► Cart** and **11.50 minutes** from **Cart ──► Payment**.
 
 ### 🌪️ 2. Page 2: Traffic Funnel Matrix (`BiDashboard/traffic_funnel_matrics.png`)
+![Traffic Funnel Matrix](`BiDashboard/traffic_funnel_matrics.png`)
 
 Tracks the programmatic progression of users through the checkout steps to uncover drop-off vulnerabilities.
 
@@ -390,6 +393,7 @@ Tracks the programmatic progression of users through the checkout steps to uncov
   - A side-by-side **Channel Acquisition** column chart contrasting overall session volumes against absolute downstream conversion trends.
 
 ### 💰 3. Page 3: ROI Optimization Matrix (`BiDashboard/ROI_optimization.png`)
+![ROI Optimization Matrix](`BiDashboard/ROI_optimization.png`)
 
 Surfaces budget shifting rules and actionable insights derived by contrasting channel revenue matrices against baseline performance targets.
 
