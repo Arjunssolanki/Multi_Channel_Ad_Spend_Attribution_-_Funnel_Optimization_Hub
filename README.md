@@ -369,7 +369,7 @@ Once the container finishes building and initializes, your FastAPI ingestion gat
 
 The analytical presentation tier visualizes the mathematical insights computed by the downstream processing pipeline across three distinct interactive dashboard views, allowing marketing teams to optimize capital efficiency and track funnel transitions.
 
-### 📈 1. Page 1: Executive Overview (`BiDashboard\overview.png`)
+### 📈 1. Page 1: Executive Overview (`BiDashboard/overview.png`)
 
 Provides a high-level command center capturing global marketing capital health and channel multi-touch comparisons.
 
@@ -379,7 +379,7 @@ Provides a high-level command center capturing global marketing capital health a
   - An **Investment and CPA Grid** mapping traffic metrics (Clicks, CPC, CPA) across Meta Ads, Google Ads, and Affiliate networks.
   - **Funnel Velocity Gauges** showing an average duration of **7.75 minutes** to navigate from **Landing ──► Cart** and **11.50 minutes** from **Cart ──► Payment**.
 
-### 🌪️ 2. Page 2: Traffic Funnel Matrix (`BiDashboard\traffic_funnel_matrics.png`)
+### 🌪️ 2. Page 2: Traffic Funnel Matrix (`BiDashboard/traffic_funnel_matrics.png`)
 
 Tracks the programmatic progression of users through the checkout steps to uncover drop-off vulnerabilities.
 
@@ -389,7 +389,7 @@ Tracks the programmatic progression of users through the checkout steps to uncov
   - An automated horizontal **Funnel Overview: Traffic Cohort Drop-off** bar graph visualizing the progression of sessions from **Stage 1: Landing Page (50)** down to **Stage 2: Cart Additions (12 or 24%)** and **Stage 3: Payment Confirmation (2 or 4%)**.
   - A side-by-side **Channel Acquisition** column chart contrasting overall session volumes against absolute downstream conversion trends.
 
-### 💰 3. Page 3: ROI Optimization Matrix (`BiDashboard\ROI_optimization.png`)
+### 💰 3. Page 3: ROI Optimization Matrix (`BiDashboard/ROI_optimization.png`)
 
 Surfaces budget shifting rules and actionable insights derived by contrasting channel revenue matrices against baseline performance targets.
 
