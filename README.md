@@ -252,7 +252,6 @@ Below are the actual data matrices calculated programmatically by the attributio
 - **The Top-of-Funnel Affiliate Engine:** Affiliate campaigns heavily dominate **First-Touch Revenue (₹1,477.02)** compared to Last-Touch. This explicitly proves that your Affiliate network functions as a powerful top-of-funnel introduction channel that drives initial product discovery, even though users settle on other paths before checking out.
 - **The Lower-Funnel Google Ads Closer:** Google Ads exhibits strong **Last-Touch optimization (₹678.28)** over First-Touch (₹397.18). This demonstrates that Google Ads successfully captures high-intent intent later in the customer browsing window to seal the conversion.
 - **Meta Ads Consistency:** Meta Ads yields identical performance across all models (₹799.02), signaling shorter, linear user paths where customers discover and convert entirely within a single social session window.
-  > > > > > > > cf4a2efa7556277330e0e9335503f413fa93bf3c
 
 ---
 
@@ -366,4 +365,36 @@ Once the container finishes building and initializes, your FastAPI ingestion gat
 - **High Intent Velocity:** Users take an average of 8.88 minutes evaluating items on the landing page before committing to a cart action. Once an item is in the cart, the conversion speed accelerates dramatically to just 2.33 minutes. This lightning-fast checkout velocity indicates that the final payment steps have negligible friction.
 - **Strategic Growth Leverage:** The primary leakage point is the initial selection phase where 74.19% of visitors bounce before adding anything to a cart. Because the checkout stage converts efficiently at 37.50%, marketing resources should focus heavily on optimizing landing page copy, product imagery, and social proof components rather than reworking the checkout flow.
 
-> > > > > > > cf4a2efa7556277330e0e9335503f413fa93bf3c
+## 📊 Business Intelligence Dashboard Portfolio
+
+The analytical presentation tier visualizes the mathematical insights computed by the downstream processing pipeline across three distinct interactive dashboard views, allowing marketing teams to optimize capital efficiency and track funnel transitions.
+
+### 📈 1. Page 1: Executive Overview (`BiDashboard\overview.png`)
+
+Provides a high-level command center capturing global marketing capital health and channel multi-touch comparisons.
+
+- **Calculated KPI Metrics:** Captures **Total Ad Spend (\$14,075.6)**, a **Blended ROAS of 0.21** based on exponential Time-Decay modeling, and an **Average CPC of \$0.23**.
+- **Visual Data Layers:**
+  - A combo chart tracking **Channel Efficiency (Revenue vs. Spend)** that isolates First-Touch, Last-Touch, and Time-Decay attribution variants against raw expenditures per channel.
+  - An **Investment and CPA Grid** mapping traffic metrics (Clicks, CPC, CPA) across Meta Ads, Google Ads, and Affiliate networks.
+  - **Funnel Velocity Gauges** showing an average duration of **7.75 minutes** to navigate from **Landing ──► Cart** and **11.50 minutes** from **Cart ──► Payment**.
+
+### 🌪️ 2. Page 2: Traffic Funnel Matrix (`BiDashboard\traffic_funnel_matrics.png`)
+
+Tracks the programmatic progression of users through the checkout steps to uncover drop-off vulnerabilities.
+
+- **Calculated KPI Metrics:** Evaluates conversion velocity via granular tracking tables breaking down **Visit-To-Cart Rates** and **Cart-To-Payment Rates** by acquisition channel.
+- **Visual Data Layers:**
+  - A structured **Traffic Funnel Matrix** table mapping specific milestones (Visits, Carts, Payments) for detailed conversion insights.
+  - An automated horizontal **Funnel Overview: Traffic Cohort Drop-off** bar graph visualizing the progression of sessions from **Stage 1: Landing Page (50)** down to **Stage 2: Cart Additions (12 or 24%)** and **Stage 3: Payment Confirmation (2 or 4%)**.
+  - A side-by-side **Channel Acquisition** column chart contrasting overall session volumes against absolute downstream conversion trends.
+
+### 💰 3. Page 3: ROI Optimization Matrix (`BiDashboard\ROI_optimization.png`)
+
+Surfaces budget shifting rules and actionable insights derived by contrasting channel revenue matrices against baseline performance targets.
+
+- **Calculated KPI Metrics:** Reports a global **Blended CPA of 17.61**, an aggregate **Overall Conversion Rate of 46.89%**, and a **Total Traffic Volume of 60K**.
+- **Visual Data Layers:**
+  - An enterprise **ROAS Performance vs. Target Baseline** table presenting current returns alongside recommended data-driven actions (e.g., _Scale Investment (Aggressive)_ for Affiliate and Meta Ads with a **25.00% Budget Shift Pct**, while tagging Google Ads to _Maintain_).
+  - A horizontal **Conversion Efficiency** chart highlighting cost distributions by plotting average CPA metrics against unit CPC allocations.
+  - A dedicated bar chart tracking active performance metrics against fixed baseline targets to indicate exactly where channels underperform or exceed expectations.
